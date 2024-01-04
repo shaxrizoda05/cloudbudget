@@ -1,0 +1,431 @@
+@media (max-width:1140px) {
+    .section__block {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .section__icon {
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .features__box {
+        gap: 15px;
+        overflow-x: scroll;
+    }
+
+    .box {
+        flex-shrink: 0;
+    }
+
+    .technology,
+    .features {
+        padding-top: 40px;
+    }
+
+    .features__title,
+    .tech__title {
+        margin-bottom: 30px;
+    }
+
+    .tech__card {
+        width: 800px;
+        gap: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section__position {
+        padding: 40px 0 40px 0;
+    }
+
+    .position {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form__box {
+        flex-direction: column;
+        padding: 30px 0 18px 0;
+    }
+
+    .form__text {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        padding: 36px 0 23px 0;
+    }
+}
+
+@media (max-width:931px) {
+    .nav__list {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 20px;
+    }
+
+    .nav__lang {
+        display: none;
+    }
+}
+
+@media (max-width:827px) {
+    .nav__logo {
+        font-size: 17px;
+        line-height: 120%;
+    }
+
+    .intro__title {
+        font-size: 62px;
+        line-height: 120%;
+    }
+
+    .intro__text {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .intro__link {
+        font-size: 13px;
+        line-height: 120%;
+        width: 150px;
+        height: 40px;
+    }
+
+    .section__title,
+    .form__title,
+    .position__title {
+        font-size: 30px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    .block__right img {
+        width: 70%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section__icon {
+        top: -130px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .section__icon span{
+        font-size: 18px;
+    }
+
+    .section__text,
+    .section__ink {
+        font-size: 13px;
+    }
+
+    .block__title,
+    .card__title {
+        font-size: 17px;
+        line-height: 120%;
+    }
+
+    .position__text {
+        margin: 18px 0 18px 0;
+    }
+
+    .form {
+        gap: 10px;
+        width: 400px;
+    }
+
+    .form__input {
+        padding: 15px 0 15px 31px;
+    }
+
+    .form__input:nth-of-type(1),
+    .form__input:nth-of-type(2) {
+        width: 400px;
+    }
+
+    .btn {
+        font-size: 12px;
+        line-height: 120%;
+        padding: 12px 23px;
+        margin: auto
+    }
+
+    .tech__card {
+        width: 600px;
+    }
+
+    .video__position {
+        display: none;
+    }
+}
+
+@media (max-width:760px) {
+    .footer__block {
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .footer__info:last-of-type {
+        width: 155px;
+    }
+
+    .footer__link4 img {
+
+        width: 100%;
+    }
+
+    .footer__text1 {
+        margin-bottom: 0;
+    }
+
+    .footer__text2 {
+        display: none;
+    }
+}
+
+@media (max-width:660px) {
+    .nav__logo {
+        font-size: 16px;
+    }
+
+    .intro__title {
+        font-size: 55px;
+    }
+
+    .intro__text {
+        font-size: 18px;
+    }
+
+    .intro__link {
+        font-size: 12px;
+        width: 130px;
+        height: 30px;
+    }
+
+    .section__title,
+    .form__title,
+    .position__title,
+    .features__title,
+    .tech__title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .icon__link {
+        font-size: 22px;
+    }
+    .section__text,
+    .section__ink {
+        font-size: 12px;
+    }
+
+    .block__title,
+    .card__title {
+        font-size: 16px;
+    }
+
+    .position__text {
+        margin: 15px 0 15px 0;
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .box img {
+        width: 100%;
+    }
+
+    .block {
+        width: 84%;
+        padding: 16px 16px 10px 16px;
+    }
+
+    .form {
+        width: 300px;
+    }
+
+    .form__input {
+        padding: 12px 0 12px 31px;
+    }
+
+    .form__input:nth-of-type(1),
+    .form__input:nth-of-type(2) {
+        width: 300px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .tech__card {
+        width: 500px;
+    }
+
+    .cards__text {
+        font-size: 80px;
+        line-height: 120%;
+    }
+
+    .card__img {
+        width: 36%;
+    }
+
+    .card__img4 {
+        width: 24%;
+    }
+}
+
+@media (max-width:600px) {
+    .nav__logo {
+        font-size: 14px;
+    }
+
+    .intro__title {
+        font-size: 50px;
+    }
+
+    .intro__text {
+        width: 500px;
+        font-size: 16px;
+    }
+
+    .intro__link {
+        font-size: 12px;
+        width: 110px;
+        height: 25px;
+    }
+
+    .section__title,
+    .form__title,
+    .position__title,
+    .features__title,
+    .tech__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .section__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section__text,
+    .position__text,
+    .form__text {
+        text-align: center;
+    }
+
+    .position__icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icon__link {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:562px) {
+    .intro {
+        gap: 19px;
+    }
+
+    .intro__title {
+        font-size: 45px;
+    }
+
+    .intro__text {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .section__title,
+    .form__title,
+    .position__title,
+    .features__title,
+    .tech__title {
+        font-size: 22px;
+    }
+
+    .tech__card{
+        width: 400px;
+    }
+}
+
+@media (max-width:430px) {
+    .intro {
+        gap: 15px;
+    }
+
+    .intro__title {
+        font-size: 35px;
+    }
+
+    .intro__text {
+        width: 300px;
+        font-size: 14px;
+    }
+    .intro__link{
+        width: 99px;
+        height: 24px;
+    }
+    .block__left, .left__text{
+        width: 300px;
+    }
+    .tech__card{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards{
+        width: 280px;
+        height: 180px;
+    }
+    .icon__link {
+        font-size: 18px;
+    }
+    .footer__block {
+        width: 300px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .video__section{
+        position: absolute;
+    }
+    .section__icon {
+        position: relative;
+        top: -130px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .section__icon span{
+        font-size: 16px;
+    }
+    .form {
+        width: 250px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+}
